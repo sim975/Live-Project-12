@@ -1,0 +1,740 @@
+.container1{
+    height: full;
+    background-color: rgb(85, 81, 81);
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    height: 20vh;
+}
+
+nav .logo img{
+    
+    width: 80px;
+    height: 40px;
+    margin-left: 50px;
+    
+    
+}
+
+nav .logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.section-1-img img{
+    height: 400px;
+    width: 400px;
+}
+
+.nav-items {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.nav-item{
+    color: white;
+    list-style: none;
+}
+
+.nav-item button{
+    margin-right: 25px;
+    padding: 5px 20px;
+    color: white;
+    background-color: transparent;
+    border: solid 1px rgb(218, 206, 206);
+}
+
+.section-1{
+    display: flex;
+}
+
+.section-1-email-box img{
+    height: 20px;
+    width:20px;
+    margin-left: 20px;
+}
+
+.section-1-img{
+    display: flex;
+    flex: 0.5;
+    justify-content: center;
+    
+    
+}
+
+.section-1-img img{
+    margin-top: 50px;
+}
+
+.section-1-content{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    align-items: center;
+    color: white;
+   
+}
+
+.section-1-content h1{
+    font-size: 60px;
+    
+    margin-right: 150px;
+}
+
+.section-1-content > p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+    
+    position:relative;
+    top: -40px;
+    font-family: sans-serif;
+    color: whitesmoke
+}
+
+.section-1-email-box{
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+    background-color: white;
+    margin-right: 300px;
+    position:relative;
+    top: -50px
+    
+}
+.section-1-email-box input{
+    border: none;
+    margin: 15px 30px;
+}
+.section-1-email-box button{
+    margin: 5px 15px;
+    margin-left: 45px;
+    padding: 5px 50px;
+    background-color: rgb(115, 147, 115);
+    border: none;
+    color:aliceblue;
+    
+}
+
+.connect-business{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;
+    
+    /* height: full; */
+    
+}
+ 
+.finished-project{
+    
+    width: 20%;
+    text-align: center;
+}
+.connect-business-content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    /* height: full; */
+    align-items: center;
+    
+}
+ .finished-project h1{
+    font-weight: 200px;
+ }
+
+
+ .second-img{
+    height: 60vh;
+    
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    
+ }
+
+ .second-img img{
+    height: 100%;
+    width: 100%;
+    
+ }
+
+.life{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+.lifeeasy .img{
+    height: 45vh;
+    
+    
+    text-align: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 5%;
+    margin-right: 15%;
+    
+
+}
+.lifeeasy .text{
+    height: 45vh;
+    
+    
+    /* text-align: center; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 5%;
+   
+    margin-left: 15%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.lifeeasy{
+    display: flex;
+    justify-content: space-between;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+}
+
+.lifeeasy .text button{
+    
+    
+    padding: 15px 50px;
+    background-color: rgb(115, 147, 115);
+    border: none;
+    color:aliceblue;
+    font-weight: bold;
+    
+}
+
+
+.digital-market .img{
+    height: 45vh;
+    width: 32%;
+    
+    
+    text-align: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 5%;
+    margin-left: 15%;
+   
+
+}
+.digital-market{
+    display: flex;
+    justify-content: space-between;
+}
+.digital-market .text{
+    height: 50vh;
+   
+    
+    
+   
+    margin-top: 5%;
+   
+    margin-right: 15%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.digital-market .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.digital-market .text button{
+    
+    
+    padding: 15px 50px;
+    background-color: rgb(115, 147, 115);
+    border: none;
+    color:aliceblue;
+    font-weight: bold;
+    
+}
+
+
+.judge .img{
+    height: 45vh;
+    
+    
+    text-align: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 5%;
+    margin-right: 15%;
+    
+
+}
+.judge .text{
+    height: 45vh;
+    
+    
+    /* text-align: center; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 5%;
+   
+    margin-left: 15%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.judge{
+    display: flex;
+    justify-content: space-between;
+}
+.judge .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.judge .text button{
+    
+    
+    padding: 15px 50px;
+    background-color: rgb(115, 147, 115);
+    border: none;
+    color:aliceblue;
+    font-weight: bold;
+    
+}
+
+.creative-team{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 3%;
+   
+    margin-left: 16%;
+    margin-right: 16%;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+}
+
+.creative-team .paragraph{
+   margin-top: 1%;
+}
+
+
+.cards{
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    justify-content: space-around;
+}
+
+
+.card-image img{
+    width: 300px;
+    height: 350px;
+}
+
+.last-button{
+        padding: 15px 50px;
+        background-color: rgb(141, 170, 141);
+        border: none;
+        color:aliceblue;
+        font-weight: bold;
+        
+        
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 5%;
+    
+}
+
+.footer .footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    border-bottom: solid 2px gray;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.footer-image2  {  
+     
+     display: flex;
+     justify-content: space-between;
+     margin-right: 5%;
+     
+} 
+.footer-image2 div {  
+    
+    display: flex;
+    margin: 4%;
+    
+} 
+.footer-image1 img{
+    width: 100px;
+}
+.footer-image2 img{
+    width: 30px;
+}
+
+.footer-down {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 2%;
+   
+}
+
+
+.list{
+    flex-direction: column;
+    
+    list-style: none;
+    color: rgb(209, 206, 206);
+}
+
+.list li{
+    margin-top: 2%;
+}
+
+
+@media screen and (max-width : 1250px ) and (min-width: 900px) {
+    
+    .section-1{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-right: 5%;
+    }
+    .section-1-content h1{
+        font-size: 40px;
+        
+        margin-right: 0px;
+        text-align: center;
+        margin-top: 15%;
+        
+    }
+    .section-1-content > p{
+        font-size: 20px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+    
+    .section-1-email-box{
+        margin-right: 0px;
+        
+    }
+    .lifeeasy{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .lifeeasy .img{
+          height: 45vh;
+          
+          
+          text-align: center;
+          /* margin-left: 10%;
+          margin-right: 10%; */
+          margin-top: 5%;
+          margin-right: 0;
+          
+      
+      }
+      .lifeeasy .text{
+          height: 45vh;
+          
+          
+          /* text-align: center; */
+          /* margin-left: 10%;
+          margin-right: 10%; */
+          margin-top: 5%;
+         
+          margin-left: 0;
+          font-size: 20px;
+          font-family: sans-serif;
+      }
+      .digital-market .img{
+          height: 45vh;
+         
+          
+          
+          text-align: center;
+          /* margin-left: 10%;
+          margin-right: 10%; */
+          margin-top: 5%;
+          margin-left: 0;
+         
+      
+      }
+      .digital-market{
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      }
+      .digital-market .text{
+          height: 50vh;
+          margin-top: 5%;
+          margin-right: 0;
+          font-size: 20px;
+          font-family: sans-serif;
+      }
+      .judge .img{
+          height: 45vh;
+          
+          
+          text-align: center;
+          /* margin-left: 10%;
+          margin-right: 10%; */
+          margin-top: 5%;
+          margin-right: 0;
+          
+      
+      }
+      .judge .text{
+          height: 45vh;
+          
+          
+          /* text-align: center; */
+          /* margin-left: 10%;
+          margin-right: 10%; */
+          margin-top: 5%;
+         
+          margin-left: 0;
+          font-size: 20px;
+          font-family: sans-serif;
+      }
+      .judge{
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      }
+      .creative-team{
+          flex-direction: column;
+          align-items: center;
+          margin-top: 5%;
+          margin-bottom: 3%;
+          margin-left: 0;
+          margin-right: 0;
+          font-family: sans-serif;
+          text-align: center;
+          
+      }
+   
+    .cards{
+        
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+   
+    
+
+}
+
+@media screen and (max-width : 950px) {
+    .nav-items {
+        display: none;
+    }
+    nav .logo{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-1{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-1-content h1{
+        font-size: 40px;
+        
+        margin-right: 0px;
+    }
+    
+    .section-1-content > p{
+        font-size: 20px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+        
+        position:relative;
+        top: -40px;
+        font-family: sans-serif;
+        color: whitesmoke
+    }
+    
+    .section-1-email-box{
+        display:flex;
+        flex-direction: row;
+        
+        align-items: center;
+        background-color: white;
+        margin-right: 0px;
+        position:relative;
+        top: -50px
+        
+    }
+    .connect-business-content{
+        flex-direction: column;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+        /* height: 20vh; */
+        align-items: center;
+        
+    }
+    .lifeeasy{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .lifeeasy .img{
+        height: 45vh;
+        
+        
+        text-align: center;
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        margin-top: 5%;
+        margin-right: 0;
+        
+    
+    }
+    .lifeeasy .text{
+        height: 45vh;
+        
+        
+        /* text-align: center; */
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        margin-top: 5%;
+       
+        margin-left: 0;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .digital-market .img{
+        height: 45vh;
+        width: 60%;
+        
+        
+        text-align: center;
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        margin-top: 5%;
+        margin-left: 0;
+       
+    
+    }
+    .digital-market{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .digital-market .text{
+        height: 50vh;
+        margin-top: 5%;
+        margin-right: 0;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .judge .img{
+        height: 45vh;
+        
+        
+        text-align: center;
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        margin-top: 5%;
+        margin-right: 0;
+        
+    
+    }
+    .judge .text{
+        height: 45vh;
+        
+        
+        /* text-align: center; */
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        margin-top: 5%;
+       
+        margin-left: 0;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .judge{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .creative-team{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+        margin-left: 0;
+        margin-right: 0;
+        font-family: sans-serif;
+        text-align: center;
+        
+    }
+    .cards{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .footer .footer-top{
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+        border-bottom: solid 2px gray;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    .footer-image2 {
+        margin-top: 3%;
+    }
+
+    .footer-down {
+        flex-direction: column;
+        color: aliceblue;
+       align-items: center;
+       text-align: center;
+        margin-left: 13%;
+        margin-right: 13%;
+        margin-top: 2%;
+       
+    }
+}
